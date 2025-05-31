@@ -3,7 +3,7 @@
   flex-direction: column;
  
 }
-
+/* MAIN */
 .title{
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
@@ -36,6 +36,7 @@
 }
 
 .buttonSearch{
+  margin-left: 1rem;
   text-decoration: none;
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
@@ -60,11 +61,15 @@
 
 .search{
   display: flex;
+  align-items: center;
   justify-content: center;
   padding-bottom: 1rem;
-  gap: 1rem;
+  
 }
-
+.iconMap{
+  color: white;
+  margin-right: 0.5rem;
+}
 .logo{
   width: 4rem;
   height: 4rem;
@@ -83,6 +88,9 @@
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
+  display: flex;
+  gap:0.7rem;
+  align-items: center;
   background-color: #1a3e7c;
   color: white;
   border: 1px solid white;
@@ -103,9 +111,201 @@
   height: 1.2rem;
 }
 
+.content{
+  padding: 0 2rem;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:3rem;
+
+}
+
 .wrapper{
   display: flex;
-  width: 80%;
-  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.subTitle{
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.numbers{
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.type{
+  gap:2rem;
+ 
+ width: 100%;
+  background-color: rgba(255, 255, 255, 0.233);
   padding: 2rem;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.category{
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1rem;
+  
+}
+
+.iconCloud{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*  ------    */
+
+
+/*  TODAY    */
+
+.todayTemp{
+  display: flex;
+  flex-direction: column;
+ 
+  align-items: center;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.day{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*  ------- */
+
+.subtitleTemp{
+  
+}
+
+.temperature{
+  display: flex;
+
+}
+
+.forecast{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.dayName{
+  text-decoration: underline;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.forecastHour{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.categoryHour{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hour{
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.numbersHour{
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.numberAstro{
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.astronomy{
+  display: flex;
+  gap: 0;
+  flex-direction: column;
+}
+
+.categoryAstro{
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
